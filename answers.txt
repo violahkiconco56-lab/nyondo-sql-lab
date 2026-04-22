@@ -92,3 +92,16 @@ Test 1: []
 Test 2: []
 Test 3: None
 Test 4: None
+
+Task 5 output
+python secure.py
+Test 1: [(1, 'Cement (bag)', 'Portland cement 50kg bag', 35000.0)]
+Invalid product name
+Test 2: None
+Invalid product name
+Test 3: None
+Test 4: (1, 'admin', 'admin123', 'admin')
+Invalid password
+Test 5: None
+Invalid username
+Test 6: None

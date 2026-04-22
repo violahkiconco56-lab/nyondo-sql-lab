@@ -1,6 +1,3 @@
-answers.txt
-
-Vulnerable
 import sqlite3
 
 # connect to database
@@ -77,5 +74,3 @@ login("admin", "admin123")
 
 # close connection
 conn.close()
-
-

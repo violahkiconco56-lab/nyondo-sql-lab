@@ -78,4 +78,17 @@ login("admin", "admin123")
 # close connection
 conn.close()
 
+SECURE
+Parameterised queries prevent SQL injection because user input is treated strictly as data,
+not as part of the SQL command. When using ? placeholders, the database engine separates 
+the query structure from the values being passed, so even if a user enters malicious SQL code, 
+it is not executed. In contrast, f-strings directly insert user input into the query, allowing
+attackers to manipulate the SQL logic. This makes f-strings unsafe for database queries, while
+parameterised queries ensure the query remains secure and behaves as intended.
 
+VIOLAH@DESKTOP-6NQDK8A MINGW64 ~/Desktop/nyondo-sql-lab (main)
+$ python secure.py
+Test 1: []
+Test 2: []
+Test 3: None
+Test 4: None
